@@ -17,16 +17,16 @@ const Main = () => {
         <h1>Perus Single Page Application (SPA)</h1>
         <ul className="header">
           <li><NavLink exact to="/">Koti</NavLink></li>
-          <li><NavLink to="/tarina">Tarinaa</NavLink></li>
-          <li><NavLink to="/yhteys">Yhteys</NavLink></li>
-          <li><NavLink to="/kartta">Kartta</NavLink></li>
+          <li><NavLink to="/Tarina">Tarinaa</NavLink></li>
+          <li><NavLink to="/Yhteys">Yhteys</NavLink></li>
+          <li><NavLink to="/Kartta">Kartta</NavLink></li>
         </ul>
         <div className="content">
           <Routes>
             <Route path="/" element={<Koti />} />
-            <Route path="/tarina" element={<Tarina />} />
-            <Route path="/yhteys" element={<Yhteys />} />
-            <Route path="/kartta" element={<Kartta />} />
+            <Route path="/Tarina" element={<Tarina />} />
+            <Route path="/Yhteys" element={<Yhteys />} />
+            <Route path="/Kartta" element={<Kartta />} />
             
           </Routes>
         </div>
