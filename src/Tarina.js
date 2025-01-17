@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "@mui/material/Button";
 
 const Tarina = () => {
   return (
@@ -12,6 +13,9 @@ const Tarina = () => {
         <li>Listan juttu 4</li>
         <li>Listan juttu 5</li>
       </ol>
+      <Button variant="contained" color="primary">
+        Klikkaa tästä
+      </Button>
     </div>
   );
 };
